@@ -1,0 +1,3 @@
+//https://www.infragistics.com/community/blogs/dhananjay_kumar/archive/2016/07/21/step-by-step-working-with-github-repository-and-visual-studio-2015.aspx - How to setup GitHub on VS2015
+//http://mmlab.ceid.upatras.gr/el/lessons/undergraduate/95-data-structures - Data structiars website curse
+//http://mmlab.ceid.upatras.gr/attachments/article/95/Data%20Structures%20Project%202017.pdf - Project pdf
