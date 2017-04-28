@@ -71,6 +71,8 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LinkIncremental>true</LinkIncremental>
+    <SourcePath>C:\Users\Mike\Documents\Visual Studio 2015\Projects\HotelManager\HotelManager;$(SourcePath)</SourcePath>
+    <IncludePath>C:\Users\Mike\Documents\Visual Studio 2015\Projects\HotelManager\HotelManager;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LinkIncremental>true</LinkIncremental>
@@ -154,12 +156,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Hotel.h" />
-    <ClInclude Include="IOManager.h" />
+    <ClInclude Include="FileManager.h" />
+    <ClInclude Include="Main.h" />
     <ClInclude Include="Reservation.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Hotel.cpp" />
-    <ClCompile Include="IOManager.cpp" />
+    <ClCompile Include="FileManager.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="Reservation.cpp" />
   </ItemGroup>

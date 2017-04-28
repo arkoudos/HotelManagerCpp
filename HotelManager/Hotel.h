@@ -3,7 +3,8 @@
 
 typedef struct Hotel
 {
-	char name[256];
+	static int id;
+	static char name[256];
 	int stars;
 	int numberOfRooms;
 	Reservation * reservations;

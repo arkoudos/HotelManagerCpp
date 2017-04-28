@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <iostream>
+#include <Main.h>
 
 using namespace std;
 void printMenu();
@@ -8,6 +9,8 @@ int main()
 {
 
 	printMenu();
+	readFile();
+
 	system("PAUSE");
 	return 0;
 }
