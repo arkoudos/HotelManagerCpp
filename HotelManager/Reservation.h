@@ -1,7 +1,7 @@
 #pragma once
-typedef struct Reservation
+struct Reservation
 {
-	char name[56];
-	char checkinDate;
+	string name[56];
+	string checkinDate;
 	int stayDurationDays;
 };
