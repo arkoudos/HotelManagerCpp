@@ -1,4 +1,5 @@
 #pragma once
+
 #include "Reservation.h"
 
 struct Hotel
@@ -9,3 +10,5 @@ struct Hotel
 	int numberOfRooms;
 	Reservation * reservations;
 };
+
+vector<Hotel> hotel;
