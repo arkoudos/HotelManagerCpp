@@ -1,11 +1,7 @@
-#include <iostream>
-#include <string>
-#include <sstream>
-#include <fstream>
-#include <stdlib.h>
-#include <malloc.h>
-#include <string>
+#include <Main.h>
 #include <FileManager.h>
+
+
 
 using namespace std;
 

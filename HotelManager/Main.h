@@ -1,4 +1,8 @@
 #pragma once
-#include "Hotel.h"
-#include "FileManager.h"
-#include "Reservation.h"
+#include <iostream>
+#include <string>
+#include <sstream>
+#include <fstream>
+#include <stdlib.h>
+#include <malloc.h>
+#include <FileManager.h>
